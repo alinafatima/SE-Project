@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Notifications</string>
+    <string name = "action_settings"> Settings</string>
+    <string name = "hello_world">Hello world!</string>
+
+    <!--Pictures-->
+    <array name="profile_pics">
+        <item>@drawable/alina</item>
+        <item>@drawable/fatima</item>
+        <item>@drawable/fatij</item>
+        <item>@drawable/abeera</item>
+        <item>@drawable/rabiya</item>
+        <item>@drawable/maira</item>
+    </array>
+
+    <string-array name="notifications">
+        <item> Buy fatima gifts</item>
+        <item> Tell fatima she is the best</item>
+        <item> Buy fatima a burger ASAP</item>
+        <item> Get fatima a nice shade of lipstick</item>
+        <item> Buy fatima a pizza</item>
+        <item> Tell fatima she Rocks</item>
+    </string-array>
+
+</resources>
