@@ -1,21 +1,21 @@
-package com.example.acer.hlloworld;
+package com.example.acer.tasks;
 
 /**
  * Created by Acer on 4/23/2017.
  */
 
 public class RowItem {
-    private String notifications;
+    private String tasks_given;
     private int profile_pic_id;
 
-    public RowItem(String notifications, int profile_pic_id)
+    public RowItem(String tasks_given, int profile_pic_id)
     {
-        this.notifications = notifications;
+        this.tasks_given = tasks_given;
         this.profile_pic_id = profile_pic_id;
     }
-    public String getNotifications () {return notifications;}
+    public String getTasks_given () {return tasks_given;}
 
-    public void setNotifications(String notifications) {this.notifications = notifications;}
+    public void setTasks_given(String tasks_given) {this.tasks_given = tasks_given;}
 
     public int getProfile_pic_id(){return profile_pic_id;}
 
