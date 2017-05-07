@@ -1,4 +1,4 @@
-package com.example.acer.hlloworld;
+package com.example.acer.tasks;
 
 import android.app.Activity;
 import android.content.Context;
@@ -37,7 +37,7 @@ public class CustomAdapter extends BaseAdapter {
     /* private view holder*/
     private class ViewHolder{
         ImageView profile_pic;
-        TextView notifications;
+        TextView tasks_given;
     }
 
     public View getView(int position, View convertView, ViewGroup parent) {
@@ -48,11 +48,11 @@ public class CustomAdapter extends BaseAdapter {
             convertView = mInflater.inflate(R.layout.list_item,null);
             holder = new ViewHolder();
 
-            holder.notifications = (TextView) convertView.findViewById(R.id.notifications);
+            holder.tasks_given = (TextView) convertView.findViewById(R.id.tasks_given);
             holder.profile_pic = (ImageView) convertView.findViewById(R.id.profile_pic);
             RowItem row_pos = rowItems.get(position);
             holder.profile_pic.setImageResource(row_pos.getProfile_pic_id());
-            holder.notifications.setText(row_pos.getNotifications());
+            holder.tasks_given.setText(row_pos.getTasks_given());
             convertView.setTag(holder);
         }else{
             holder = (ViewHolder) convertView.getTag();
@@ -60,3 +60,4 @@ public class CustomAdapter extends BaseAdapter {
         return convertView;
     }
 }
+
