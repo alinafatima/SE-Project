@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">TRACKER</string>
+    <string name="welcomemsg">WELCOME!</string>
+    <string name="login">LOGIN</string>
+    <string name="signup1">SIGN UP AS AN EMPLOYER</string>
+    <string name="signup2">SIGN UP AS AN EMPLOYEE</string>
+    <string name="or">OR</string>
+    <string name="username">EMAIL ADDRESS</string>
+    <string name="password">PASSWORD</string>
+    <string name="fname">FIRST NAME</string>
+    <string name="Lname">LAST NAME</string>
+    <string name="rPassword">RE-ENTER PASSWORD</string>
+    <string name="cname">COMPANY NAME</string>
+    <string name="designation">DESIGNATION</string>
+    <string name="pnumber">PHONE NUMBER</string>
+    <string name="fyp">FORGOT YOUR PASSWORD</string>
+    <string name="loggedin">KEEP ME LOGGED IN</string>
+    <string name="fourdigitpin">Please enter the four digit verification pin sent on your email:</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="pin">FOUR DIGIT PIN</string>
+    <string name="addEmployeetext">Enter the email address of the employee you want to add.</string>
+    <string name="deleteEmployeetext">Select the employee/employees you want to delete:</string>
+</resources>

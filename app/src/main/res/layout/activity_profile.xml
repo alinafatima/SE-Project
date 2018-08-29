@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backGround"
+    tools:context="com.example.alina.seprojecttracker.Profile">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red"
+        android:minHeight="?attr/actionBarSize"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Light"
+        app:contentInsetStart="0dp"
+        app:contentInsetLeft="0dp"
+        app:contentInsetRight="0dp"
+        app:contentInsetEnd="0dp" >
+
+        <Button
+            android:id="@+id/back6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/back"
+            />
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/profile"/>
+
+
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:textColor="@color/darkBlue"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:text="Fatima Bashir"
+            android:textSize="30sp"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/pic2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/pic1"
+            android:background="@color/red"
+            android:layout_marginTop="40dp"
+            />
+
+        <TextView
+            android:id="@+id/designation"
+            android:layout_width="match_parent"
+            android:textColor="@color/darkBlue"
+            android:layout_height="wrap_content"
+            android:text="CEO"
+            android:textSize="15sp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/pic3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src = "@drawable/pic3"
+            android:layout_marginLeft="10dp"
+            android:background="@color/red"
+            android:layout_marginTop="40dp"/>
+        <TextView
+            android:id="@+id/number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="03364089842"
+            android:textColor="@color/darkBlue"
+            android:textSize="15sp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/pic4"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/red"
+            android:src="@drawable/pic4" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="15sp"
+
+            android:textColor="@color/darkBlue"
+            android:inputType="textEmailAddress"
+            android:text="18100278@lums.edu.pk"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
